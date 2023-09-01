@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace _01Basic
+namespace _0904_test
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace _01Basic
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new winform());
+            Application.Run(new WINFORM());
         }
     }
 }

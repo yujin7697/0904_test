@@ -1,6 +1,6 @@
-﻿namespace _01Basic
+﻿namespace _0904_test
 {
-    partial class winform
+    partial class WINFORM
     {
         /// <summary>
         /// 필수 디자이너 변수입니다.
@@ -26,6 +26,8 @@
         /// 디자이너 지원에 필요한 메서드입니다. 
         /// 이 메서드의 내용을 코드 편집기로 수정하지 마세요.
         /// </summary>
+
+        #endregion
         private void InitializeComponent()
         {
             this.PortNumber = new System.Windows.Forms.ComboBox();
@@ -126,7 +128,6 @@
             this.textArea.Location = new System.Drawing.Point(6, 21);
             this.textArea.Multiline = true;
             this.textArea.Name = "textArea";
-            this.textArea.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textArea.Size = new System.Drawing.Size(190, 212);
             this.textArea.TabIndex = 1;
             // 
@@ -159,6 +160,7 @@
             this.TEMP_BOX.Name = "TEMP_BOX";
             this.TEMP_BOX.Size = new System.Drawing.Size(178, 23);
             this.TEMP_BOX.TabIndex = 0;
+
             // 
             // groupBox5
             // 
@@ -183,7 +185,7 @@
             // groupBox6
             // 
             this.groupBox6.Controls.Add(this.DIS_TXT);
-            this.groupBox6.Location = new System.Drawing.Point(259, 282);
+            this.groupBox6.Location = new System.Drawing.Point(265, 282);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(202, 55);
             this.groupBox6.TabIndex = 1;
@@ -228,8 +230,6 @@
             this.ResumeLayout(false);
 
         }
-
-        #endregion
 
         private System.Windows.Forms.ComboBox PortNumber;
         private System.Windows.Forms.Button conn_btn;

@@ -1,0 +1,11 @@
+C:\Users\Administrator\Desktop\장유진\C#\0904_test\0904_test\obj\Debug\0904_test.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\장유진\C#\0904_test\0904_test\obj\Debug\0904_test.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Desktop\장유진\C#\0904_test\0904_test\obj\Debug\_0904_test.WINFORM.resources
+C:\Users\Administrator\Desktop\장유진\C#\0904_test\0904_test\obj\Debug\_0904_test.Properties.Resources.resources
+C:\Users\Administrator\Desktop\장유진\C#\0904_test\0904_test\obj\Debug\0904_test.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\장유진\C#\0904_test\0904_test\obj\Debug\0904_test.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\장유진\C#\0904_test\0904_test\bin\Debug\0904_test.exe.config
+C:\Users\Administrator\Desktop\장유진\C#\0904_test\0904_test\bin\Debug\0904_test.exe
+C:\Users\Administrator\Desktop\장유진\C#\0904_test\0904_test\bin\Debug\0904_test.pdb
+C:\Users\Administrator\Desktop\장유진\C#\0904_test\0904_test\obj\Debug\0904_test.exe
+C:\Users\Administrator\Desktop\장유진\C#\0904_test\0904_test\obj\Debug\0904_test.pdb

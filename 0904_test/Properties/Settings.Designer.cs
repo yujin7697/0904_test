@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace _01Basic.Properties
+namespace _0904_test.Properties
 {
 
 

@@ -9,23 +9,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace _01Basic
+namespace _0904_test
 {
-    public partial class winform : Form
+    public partial class WINFORM : Form
     {
-
         private SerialPort serialPort = new SerialPort();
 
-        public winform()
+        public WINFORM()
         {
             InitializeComponent();
         }
 
         private void PortNumber_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //Console.WriteLine("HELLO WORLD");
-            //Console.WriteLine("sender : " + sender);
-            //Console.WriteLine("EventArgs : " + e);
+ 
             ComboBox cb = (ComboBox)sender;
             Console.Write("Selected Idx : " + cb.SelectedIndex + "  ");
             Console.WriteLine("Selected Value : " + cb.Items[cb.SelectedIndex]);
@@ -55,7 +52,9 @@ namespace _01Basic
             }
 
 
+
         }
+
         private void SerialPort_DataReceived(object sender, EventArgs e)
         {
             String recvData = this.serialPort.ReadLine();
@@ -64,12 +63,14 @@ namespace _01Basic
             //Invoke(new Action(() => { /*처리로직*/ }));
 
             //LED 점등 유무 확인 스레드
-            if (recvData.StartsWith("LED_")) {
+            if (recvData.StartsWith("LED_"))
+            {
                 Invoke(new Action(() => { Console.WriteLine(recvData); this.textArea.AppendText(recvData + "\r\n"); }));
             }
 
             //온도 센서 확인 스레드
-            if (recvData.StartsWith("TEMP : ")) {
+            if (recvData.StartsWith("TEMP : "))
+            {
                 Invoke(new Action(() => { this.TEMP_BOX.Text = ""; this.TEMP_BOX.Text = recvData.Replace("TEMP : ", ""); }));
             }
 
@@ -106,5 +107,6 @@ namespace _01Basic
         {
             serialPort.Write("0");
         }
+
     }
 }
